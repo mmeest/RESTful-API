@@ -1,4 +1,4 @@
-<p align="center"><img src="restful.png" width="300px"></p>
+<p align="center"><img src="resful.png" width="300px"></p>
 
 <h1 align="center">
     <strong>RESTful API</strong>
@@ -7,11 +7,11 @@
     RESTful API with node.js
 </h3>
 
-<img src="rest.png" heigth="50px">
+<img src="rest.png" height="50px">
 ## REST
 Representational state transfer (REST) is a software architectural style which uses a subset of HTTP. It is commonly used to create interactive applications that use Web services. A Web service that follows these guidelines is called RESTful. Such a Web service must provide its Web resources in a textual representation and allow them to be read and modified with a stateless protocol and a predefined set of operations. This approach allows interoperability between the computer systems on the Internet that provide these services. REST is an alternative to, for example, SOAP as way to access a Web service.
 
-<img src="nodejs.png" heigth="50px">
+<img src="nodejs.png" height="50px">
 ## Node.js
 Link: https://nodejs.org/en/
 
@@ -20,7 +20,7 @@ due to its single-threaded nature. It's used for traditional web sites\
 and back-end API services, but was designed with real-time,\ 
 push-based architectures in mind.
 
-<img src="openapi.png" heigth="50px">
+<img src="openapi.png" height="50px">
 ## OpenApi
 Link: https://swagger.io/specification/ 
 
@@ -34,7 +34,7 @@ An OpenAPI definition can then be used by documentation generation tools to disp
 code generation tools to generate servers and clients in various programming languages,\
 testing tools, and many other use cases.
 
-<img src="postman.png" heigth="50px">
+<img src="postman.png" height="50px">
 ## Postman
 Link: https://www.postman.com/
 
@@ -42,7 +42,7 @@ Postman is a software development tool. It enables people to test calls to APIs.
 Postman users enter data. The data is sent to a special web server address.\ 
 Typically, information is returned, which Postman presents to the user.
 
-<img src="insomnia.png" heigth="50px">
+<img src="insomnia.png" height="50px">
 ## Insomnia
 Link: https://insomnia.rest/
 

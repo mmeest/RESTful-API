@@ -53,10 +53,10 @@ Insomnia - https://chrome.google.com/webstore/detail/insomnia-rest-client/gmodih
 Postman - https://www.postman.com/
 
 ## RESTful methods
-
+| Method | Description |
 |-|-|
-| GET | | 
-| POST | |
+| GET | The GET method requests a representation of the specified resource. Requests using GET should only retrieve data | 
+| POST | The POST method is used to submit an entity to the specified resource, ofteen causing a change in state or side effects on the server |
 
 ## Endpoint
 Adding endpoint to our API

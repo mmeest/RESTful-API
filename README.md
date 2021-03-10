@@ -54,6 +54,7 @@ Postman - https://www.postman.com/
 
 ## RESTful methods
 
+|-|-|
 | GET | | 
 | POST | |
 

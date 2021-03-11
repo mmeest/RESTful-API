@@ -1,4 +1,4 @@
-<p align="center"><img src="resful.png" width="300px"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/34022590/110831308-c49f0200-82a2-11eb-99ca-f969b1809b7c.png" width="350px"></p>
 
 <h1 align="center">
     <strong>RESTful API with node.js</strong>

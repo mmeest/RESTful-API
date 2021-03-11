@@ -1,15 +1,33 @@
 <p align="center"><img src="resful.png" width="300px"></p>
 
 <h1 align="center">
-    <strong>RESTful API</strong>
+    <strong>RESTful API with node.js</strong>
 </h1>
 <h3 align="center">
     RESTful API with node.js
 </h3>
 
+<h3 align="center">
+  <a target="_blank" href="https://restfulapi.net/">restfulapi.net</a>
+	<span> · </span>
+  <a target="_blank" href="https://nodejs.org/en/">Node.js</a>
+	<span> · </span>
+  <a target="_blank" href="https://swagger.io/specification/">OpenAPI</a>
+	<span> · </span>
+  <a target="_blank" href="https://www.postman.com/">Postman</a>
+	<span> · </span>
+  <a target="_blank" href="https://insomnia.rest/">Insomnia</a>
+</h3>
+<br><br>
+
+## Contents
+- [Rest](#rest)
+
 <img src="rest.png" height="80px">
 
 ## REST
+REST - REpresentation State Transfer
+
 Representational state transfer (REST) is a software architectural style which uses a subset of HTTP. It is commonly used to create interactive applications that use Web services. A Web service that follows these guidelines is called RESTful. Such a Web service must provide its Web resources in a textual representation and allow them to be read and modified with a stateless protocol and a predefined set of operations. This approach allows interoperability between the computer systems on the Internet that provide these services. REST is an alternative to, for example, SOAP as way to access a Web service.
 
 <img src="nodejs.png" height="80px">
@@ -102,7 +120,22 @@ To acces our API we could use\
 2. we coud install VSCode 'REST Client' extension\
 3. or use REST client like 'insominia' or 'postman'
 
-## RESTful methods
+## RESTful methods requests
+When sending out REST API request we get response from server.\
+Usually in JSON format.
+
+REST vs. CRUD\
+There are 4 main request methods('http' actions) used in REST - alternitives for CRUD (CREATE, READ, UPDATE, DELETE)
+
+| CRUD | HTTP | REST |
+|-|-|-|
+| Create | POST | /api/movie |
+| Read | GET | /api/movie/{id} |
+| Update | PUT | /api/movie |
+| Delete | DELETE | /api/movie/{id} |
+
+Other CRUD calls are:
+
 | Method | Description |
 |-|-|
 | GET | The GET method requests a representation of the specified resource. Requests using GET should only retrieve data |
@@ -195,3 +228,17 @@ app.use(express.json());
 If we save now, restart our server, go back to Insomnia and send exact same request as earlier.\
 We get successful response.\
 If we send 'logo' with empty string, we get response that 'We need a logo!'
+
+## HTTP Response Codes
+HTTP defines these standard status codes that can be used to convey the results of a client’s request.\ 
+The status codes are divided into the five categories.
+
+* 1xx: Informational – Communicates transfer protocol-level information.
+* 2xx: Success – Indicates that the client’s request was accepted successfully.
+* 3xx: Redirection – Indicates that the client must take some additional action in order to complete their request.
+* 4xx: Client Error – This category of error status codes points the finger at clients.
+* 5xx: Server Error – The server takes responsibility for these error status codes.
+
+200 - OK Indicates that request has succeeded.
+
+https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
